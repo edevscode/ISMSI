@@ -1,0 +1,38 @@
+# ── Environment variables (NEVER commit) ─────────────────────────────────────
+.env
+.env.local
+.env.*.local
+backend/.env
+frontend/.env
+
+# ── Python / Django ───────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+backend/venv/
+backend/env/
+backend/staticfiles/
+backend/media/
+*.egg-info/
+dist/
+build/
+db.sqlite3
+
+# ── Node / Vite ───────────────────────────────────────────────────────────────
+frontend/node_modules/
+frontend/dist/
+frontend/dist-ssr/
+
+# ── Database dumps (may contain sensitive data) ───────────────────────────────
+*.sql
+
+# ── OS / IDE ──────────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.suo
+*.sw?
+*.sln
